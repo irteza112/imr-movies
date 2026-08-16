@@ -1,5 +1,5 @@
 /*
-Name: Irteza Hassan
+Name: Group 5
 Date: August 2026
 Program: Internet Movies Rental (IMR) Movie Management Application.
 This page allows an administrator to add a new movie to the Supabase database.

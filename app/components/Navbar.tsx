@@ -1,5 +1,5 @@
 /*
-Name: Irteza Hassan
+Name: Group 5
 Date: August 2026
 Program: Internet Movies Rental (IMR) Movie Management Application.
 This component displays the main navigation bar for the IMR application.
@@ -70,7 +70,7 @@ export default async function Navbar() {
           href="/"
           className="text-2xl font-bold"
         >
-          IMR Movies
+          IMR Movies Portal
         </Link>
 
         <div className="flex items-center gap-8">
