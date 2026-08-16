@@ -1,5 +1,68 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# IMR Movies Portal
+
+A full-stack web application created for the **Internet Movies Rental Company (IMR)**. The portal allows users to view and manage movie information through a web interface connected to a Supabase database.
+
+## Features
+
+- View a list of movies
+- Display movie titles, actors, and release years
+- Add new movies
+- Edit existing movies
+- Delete movies
+- User authentication
+- Supabase database integration
+- Responsive navigation bar and footer
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Supabase
+- Git and GitHub
+
+## Getting Started
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file in the root directory and add the required Supabase environment variables:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
+```
+
+Do not commit the `.env.local` file or private credentials to GitHub.
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:3000
+```
+
+in your browser.
+
+## Project Purpose
+
+This project was developed as a group full-stack web development assignment. It demonstrates the use of Next.js with Supabase to create a database-driven web application with authentication and CRUD operations.
+
+## Contributors
+
+Developed collaboratively by the IMR Movies project team.
+
 ## Getting Started
 
 First, run the development server:
